@@ -10,7 +10,7 @@ import { EquipoService, Equipo } from '../services/equipo';
   templateUrl: './buscar-usuario.html',
   styleUrl: './buscar-usuario.css'
 })
-export class BuscarUsuarioComponent {
+export class BuscarUsuario {
   codigoBusq: string = '';
   equipoEncontrado: Equipo | null = null;
 

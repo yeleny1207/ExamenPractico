@@ -10,7 +10,7 @@ import { EquipoService } from '../services/equipo';
   templateUrl: './actualizar-usuario.html',
   styleUrl: './actualizar-usuario.css'
 })
-export class ActualizarUsuarioComponent {
+export class ActualizarUsuario {
   codigo: string = '';
   nuevoEstado: string = 'Disponible';
 

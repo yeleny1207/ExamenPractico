@@ -10,7 +10,7 @@ import { EquipoService, Equipo } from '../services/equipo';
   templateUrl: './insertar-usuario.html',
   styleUrl: './insertar-usuario.css'
 })
-export class InsertarUsuarioComponent {
+export class InsertarUsuario {
   nuevoEquipo: Equipo = {
     codigo: '',
     nombre: '',

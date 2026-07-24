@@ -9,7 +9,7 @@ import { EquipoService, Equipo } from '../services/equipo';
   templateUrl: './listar-usuarios.html',
   styleUrl: './listar-usuarios.css'
 })
-export class ListarUsuariosComponent implements OnInit {
+export class ListarUsuarios implements OnInit {
   equipos: Equipo[] = [];
 
   constructor(private equipoService: EquipoService) {}
