@@ -1,0 +1,13 @@
+<div class="container mt-3">
+  <h3>Actualizar Estado del Equipo</h3>
+  <div class="row g-2 mt-2">
+    <div class="col-md-6"><input type="text" [(ngModel)]="codigo" placeholder="Código del equipo" class="form-control"></div>
+    <div class="col-md-6">
+      <select [(ngModel)]="nuevoEstado" class="form-control">
+        <option value="Disponible">Disponible</option>
+        <option value="En Mantenimiento">En Mantenimiento</option>
+      </select>
+    </div>
+    <div class="col-12"><button class="btn btn-warning mt-2 w-100" (click)="actualizar()">Actualizar Estado</button></div>
+  </div>
+</div>

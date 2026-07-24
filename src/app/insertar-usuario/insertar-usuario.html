@@ -1,0 +1,24 @@
+<div class="card p-4 shadow-sm mb-4">
+  <h3 class="text-primary mb-3">Registrar Nuevo Equipo</h3>
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label fw-bold">Código:</label>
+      <input type="text" [(ngModel)]="nuevoEquipo.codigo" placeholder="Ej: 890" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label fw-bold">Nombre:</label>
+      <input type="text" [(ngModel)]="nuevoEquipo.nombre" placeholder="Ej: Impresora" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label fw-bold">Categoría:</label>
+      <input type="text" [(ngModel)]="nuevoEquipo.categoria" placeholder="Ej: Dispositivos" class="form-control">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label fw-bold">Laboratorio:</label>
+      <input type="text" [(ngModel)]="nuevoEquipo.laboratorio" placeholder="Ej: Lab 2" class="form-control">
+    </div>
+    <div class="col-12 mt-3">
+      <button class="btn btn-success w-100 py-2 fw-bold" (click)="guardar()">Guardar Equipo</button>
+    </div>
+  </div>
+</div>

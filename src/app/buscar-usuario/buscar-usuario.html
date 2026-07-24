@@ -1,0 +1,10 @@
+<div class="container mt-3">
+  <h3>Buscar Equipo por Código</h3>
+  <div class="input-group mt-2">
+    <input type="text" [(ngModel)]="codigoBusq" placeholder="Ingrese código..." class="form-control">
+    <button class="btn btn-primary" (click)="buscar()">Buscar</button>
+  </div>
+  <div *ngIf="equipoEncontrado" class="alert alert-info mt-3">
+    <strong>Encontrado:</strong> {{ equipoEncontrado.nombre }} - Lab: {{ equipoEncontrado.laboratorio }} - Estado: {{ equipoEncontrado.estado }}
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="container mt-3">
+  <h3 class="text-secondary mb-3">Listado de Equipos Registrados</h3>
+  <table class="table table-striped table-bordered shadow-sm">
+    <thead class="table-dark">
+      <tr>
+        <th>Código</th>
+        <th>Nombre</th>
+        <th>Categoría</th>
+        <th>Laboratorio</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let eq of equipos">
+        <td>{{ eq.codigo }}</td>
+        <td>{{ eq.nombre }}</td>
+        <td>{{ eq.categoria }}</td>
+        <td>{{ eq.laboratorio }}</td>
+        <td><span class="badge bg-success">{{ eq.estado }}</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
