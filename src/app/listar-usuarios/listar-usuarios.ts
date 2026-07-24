@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { EquipoService, Equipo } from '../services/equipo';
+import { Equipo, EquipoService } from '../services/equipo';
 
 @Component({
   selector: 'app-listar-usuarios',

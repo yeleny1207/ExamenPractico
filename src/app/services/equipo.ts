@@ -14,7 +14,7 @@ export interface Equipo {
 @Injectable({
   providedIn: 'root'
 })
-export class Equipo {
+export class EquipoService {
   private apiUrl = 'http://127.0.0.1:3000';
 
   constructor(private http: HttpClient) {}
