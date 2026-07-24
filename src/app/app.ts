@@ -18,4 +18,4 @@ import { ActualizarUsuario } from './actualizar-usuario/actualizar-usuario';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class AppComponent {}
+export class App {}
